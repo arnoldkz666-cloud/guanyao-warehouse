@@ -1,0 +1,8 @@
+:root{
+  --ink:#0b0d0e;--paper:#f4f2ec;--paper2:#e7e4dc;--white:#fff;
+  --muted:#676b6d;--line:rgba(11,13,14,.14);--accent:#d8ef63;--red:#cf3f2c;
+  --pad:18px;--radius:22px;--header:64px;--max:1440px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header) + 18px);background:var(--ink)}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif;-webkit-font
